@@ -1,0 +1,32 @@
+### window set and gaps
+window:
+  dimensions:
+    columns: 50
+    lines: 10
+  padding:
+    x: 30
+    y: 30
+### scroll history
+scrolling:
+  history: 99
+  multiplier: 3
+### dynamic reload
+live_config_reload: true
+### font family
+font:
+  normal:
+    family: CozetteVector
+    style: Bold
+  size: 14
+### background transparency
+window.opacity: 1.0
+### cursor style and blinking
+cursor:
+  style:
+    shape: Underline
+    blinking: always
+    blink_interval: 50
+  unfocused_hollow: false
+### import colors
+import:
+    - /home/username/.config/alacritty/colors.yml
